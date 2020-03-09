@@ -1,0 +1,203 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <!-- MAIN CONTAINER WRAPPER (app goes here) -->
+        <div class="wrapper">
+            <!-- PACKAGE SELECTOR -->
+            <h1 class="main-header">Uw gegevens</h1>
+            
+
+            <div class="content">
+                <!-- FORM -->
+                <div class="form-content">
+                    <form class="main-form">
+                        <fieldset>
+                            <legend>Bedrijfsgegevens</legend>
+
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">KVK nummer</label>
+                                    <input type="text" placeholder="12345678">
+                                    <div class="info">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <label for="">Bedrijfsnaam</label>
+                                    <input type="text" class="wmax">
+                                </div>
+                                <div class="item">
+                                    <label for="">Postcode</label>
+                                    <input type="text" placeholder="1234AB" class="wmin">
+                                </div>
+                                <div class="item">
+                                    <label for="">Huisnummer</label>
+                                    <input type="text" placeholder="12" class="wmin">
+
+                                    <div class="item nest">
+                                        <label for="">Toevoeging</label>
+                                        <input type="text" class="wmin">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <label for="">Straat</label>
+                                    <input type="text" class="wmax">
+                                </div>
+                                <div class="item">
+                                    <label for="">Woonplaats</label>
+                                    <input type="text" class="wmax">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>RDW gegevens</legend>
+
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">RDW nummer</label>
+                                    <input type="text" placeholder="12345" class="wmin">
+                                    <div class="info">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <label for="">KI nummer</label>
+                                    <input type="text" placeholder="AB12C34">
+                                    <div class="info">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Persoonlijke gegevens</legend>
+
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">Aanhef</label>
+                                    <div class="radio">
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Meneer</label>
+                                    </div>
+
+                                    <div class="radio active">
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Mevrouw</label>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <label for="">Voorletters</label>
+                                    <input type="text" class="wmax">
+                                </div>
+
+                                <div class="item">
+                                    <label for="">Tussenvoegsel</label>
+                                    <input type="text" class="wmax">
+                                </div>
+
+                                <div class="item">
+                                    <label for="">Achternaam</label>
+                                    <input type="text" class="wmax">
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Overige gegevens</legend>
+
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">Telefoonnummer</label>
+                                    <input type="text" class="wmax">
+                                </div>
+
+                                <div class="item">
+                                    <label for="">E-mailadres</label>
+                                    <input type="email" placeholder="voorbeeld@domein.nl" class="wmax">
+                                </div>
+
+                                <div class="item">
+                                    <label for="">IBAN</label>
+                                    <input type="text" placeholder="NL99BANK012356789" class="wmax">
+                                    <p>
+                                        Uw bestelling betaalt u via automatische incasso. Dit rekeningnummer geldt vanaf nu voor al uw producten die u afneemt bij VWE. 
+                                    </p>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="colorless">
+                            <legend>Per wanneer wilt u uw bestelling in laten gaan?</legend>
+
+                            <div class="items">
+                                <!-- Angular datepicker will replace this part -->
+                                <div class="item">
+                                    <label for="">Ingangsdatum</label>
+                                    <input type="text" class="datepicker">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <!-- SUMMARY PRICE -->
+                <aside>
+                    <h2>Samenvatting</h2>
+                    <ul class="features">
+                        <li>
+                            <span>Module - START</span>
+                            <span>€ 10,95</span>
+                        </li>
+                        <li>
+                            <span>Module - START</span>
+                            <span>€ 10,95</span>
+                        </li>
+                        <li class="total-price">
+                            <span>Totaal per maand</span>
+                            <span>€ 18,95</span>
+                        </li>
+                    </ul>
+
+                    <ul class="features">
+                        <li>
+                            <span>Aanmelden & opstarten</span>
+                            <span>€ 45,00</span>
+                        </li>
+                        <li class="total-price">
+                            <span>Totaal eenmalig</span>
+                            <span>€ 45,00</span>
+                        </li>
+                    </ul>
+                </aside>
+
+                <!-- NAVIGATION BUTTONS -->
+                <ul class="nav-buttons">
+                    <li>Terug</li>
+                    <li class="btn">Naar uw bestelling</li>
+                </ul>
+            </div>
+            
+        </div>
+    </body>
+</html>
